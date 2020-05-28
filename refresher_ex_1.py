@@ -330,7 +330,7 @@ for x in range(5, 15):
 
 
 def abbr(s, filler="...", total_width=15):
-    '''returns a copy of s abbreviated to total_width with filler in the middle''' 
+    "returns a copy of s abbreviated to total_width with filler in the middle" 
     x = total_width // 2 # integer division
     rem = total_width % 2 # remainder will be 1 if width is odd
     abb_str = s[0:x+rem] + filler + s[-x:] # for odd width, add one to front
