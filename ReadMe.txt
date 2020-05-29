@@ -85,3 +85,8 @@ on Canvas hand in:
 - your version of this .py file
 - your results.txt
 - tell me the URL of your forked repo 
+
+May 29, 2020
+- I just added a folder called one ex per file, which has each exercise (1 through 4) as a separate file.
+- Use this if you don't like working with one very long .py file
+- If you do use it, just give me 4 results file (results1.txt, results2.txt, etc.)
