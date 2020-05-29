@@ -22,7 +22,7 @@
 # part 0
 # This is just a simple example to demonstrate how the start and end
 # breakpoint system works
-# Task: get the user's name with input() and print out Hello <name>
+# Task: create a variable with your name and print out Hello <name>
 print("start of part 0") # set breakpoint here
 # your code here
 
@@ -53,7 +53,7 @@ print("end of 0") # set breakpoint here
 
 
 # solution 1
-name = input("What's your name?")
+name = "Chris"
 print("Hello", name)
 '''
 
