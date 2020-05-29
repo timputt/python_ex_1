@@ -131,7 +131,7 @@ print("end of 1") # set breakpoint here
 
 
 
-
+# solution 2
 L = [0, [], [1,2,3,4], [[5],[6,7]], [8,9,10]]
 print("L is", L)
 tmp1 = L[0] # 0
@@ -236,7 +236,7 @@ print("end of 3") # set breakpoint here
 
 
 
-
+# solution 3
 # version 1 - using 1/-1
 s = "Python is an interpreted, high-level, general-purpose programming language."
 words = s.split()
@@ -316,7 +316,7 @@ print("end of 4") # set breakpoint here
 
 
 
-
+# solution 4
 s = "A very long description" # a long string
 filler = "..."
 for x in range(5, 15):
