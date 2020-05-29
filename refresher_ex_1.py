@@ -86,6 +86,11 @@ print("Hello", name)
 # - your results.txt
 # - tell me the URL of your forked repo 
 
+
+
+
+
+
 # part 1
 # task:  L = [0, [], [1,2,3,4], [[5],[6,7]], [8,9,10]]
 # using both, indexing and slicing on L, assemble and print a new list N that contains:
@@ -189,6 +194,8 @@ print("there are", len(sentence_list), "sentences:")
 for e in sentence_list:
     print(e)
 '''
+
+
 # part 3
 # Task: 
 # - break s into a list of words (i.e. now separated by space)
