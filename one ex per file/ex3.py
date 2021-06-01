@@ -15,6 +15,30 @@
 print("start of part 3") # set breakpoint here
 # your code here
 
+#My first pass without removing punctuation.
+'''
+s = "Python is an interpreted, high-level, general-purpose programming language."
+capwords = s.upper()
+print(capwords)
+word_lst = capwords.split(" ")
+for e in word_lst:
+    print(e)
+'''
+#Removing punctuation - FAIL :(
+s = "Python is an interpreted, high-level, general-purpose programming language."
+capwords = s.upper()
+print(capwords)
+punc = ","
+word_lst = capwords.split(" ")
+for e in word_lst:
+    if e in punc:
+        word_lst = word_lst.replace(e,"") 
+    print(*word_lst, sep = "\n")
+
+
+
+
+
 
 print("end of 3") # set breakpoint here 
 '''

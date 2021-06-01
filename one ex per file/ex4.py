@@ -16,6 +16,23 @@ s = "A very long description" # a long string
 filler = "..."
 # your code here
 
+#Tim's code starts here.
+
+x = 5
+my_list = list(s)
+leading = my_list[0:5]
+#print(leading)
+
+for e in leading:
+    print(e)
+
+#for e in s:
+
+
+
+
+
+
 
 print("end of 4") # set breakpoint here 
 '''
