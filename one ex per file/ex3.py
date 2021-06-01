@@ -16,32 +16,46 @@ print("start of part 3") # set breakpoint here
 # your code here
 
 #My first pass without removing punctuation.
-'''
+
 s = "Python is an interpreted, high-level, general-purpose programming language."
 capwords = s.upper()
 print(capwords)
 word_lst = capwords.split(" ")
 for e in word_lst:
     print(e)
-'''
+
+# This is only 50% correct b/c you effectively upper() all chars first and then make words
+# you need some way of doing upper() only to every 2. word
+
+
+
+
 #Removing punctuation - FAIL :(
 s = "Python is an interpreted, high-level, general-purpose programming language."
 capwords = s.upper()
 print(capwords)
 punc = ","
 word_lst = capwords.split(" ")
-for e in word_lst:
+for e in word_lst:                 
     if e in punc:
         word_lst = word_lst.replace(e,"") 
-    print(*word_lst, sep = "\n")
+    print(*word_lst, sep = "\n") # Fancy list unrollerado!
 
+# You could use replace(e, "") instead of remove but should do it on s first, then split s:
+s = "Python is an interpreted, high-level, general-purpose programming language."
+p_chars = ",."
+for p in p_chars:
+    s = s.replace(p, "")
+print(s)
+
+words = s.split(" ")
 
 
 
 
 
 print("end of 3") # set breakpoint here 
-'''
+
 
 
 
@@ -96,4 +110,3 @@ for w in words:
     else:
         print(w)
         make_upper = True # it must currently be False, so set to True
-'''

@@ -19,17 +19,16 @@ filler = "..."
 #Tim's code starts here.
 
 x = 5
-my_list = list(s)
-leading = my_list[0:5]
-#print(leading)
+my_list = list(s) # CH makes a list of letters
+leading = my_list[0:x] # CH should  be my_list[0:x] not 0:5
+trailing = my_list[-x: ]
 
-for e in leading:
-    print(e)
-
-#for e in s:
-
+# need to glue chars from list into strings and put "..." in between
+abbr_s = "".join(leading) + "..." + "".join(trailing)
+print(abbr_s)
 
 
+# given the len() of s, when is x too big? 
 
 
 
