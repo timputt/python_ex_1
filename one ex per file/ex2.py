@@ -10,15 +10,23 @@ s = "Python is an interpreted, high-level, general-purpose programming language.
 
 
 #First attempt that works, but did NOT use loop.
-'''
+
 print("Tim's first try at here") 
 period_count = s.count(".")
 print(period_count, "periods were counted.\n\n") #to confirm how many sentences end in a period.
 sentence_str = s.split(". ",-1) #maxsplit is automatically -1
 print(sentence_str)
+# CH using ". " and not just "." is actually a pretty elegant way of getting a proper human sentence separtion. 
+# No need to use -1, though, if you don't want to limit your split, just omit the second arg and it'll default to -1
+# s.split(". ") 
+
+
 print("Sentence 1:\n",sentence_str[0], "\n\nSentence 2:\n",sentence_str[1], "\n\nSentence 3:\n",sentence_str[2])
+# CH this is amateurish b/c you should NEVER rely on hardcoding the number of any collection. Always either use
+# len() or let the for loop do its magic. Just print(sentence_str) would also be OK, but a bit ugly
+
 print("end of 2") # set breakpoint here 
-'''
+
 #Second attempt after taking a brief peek below.
 print("\n\n\n\nTim's second try at here -- after BRIEFLY looking at the solution below and realizing I didn't loop.")
 sentence_lst = s.split(".")
