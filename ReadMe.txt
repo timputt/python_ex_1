@@ -1,3 +1,5 @@
+Here's something I changed on the call.
+
 Python refresher exercises
 part 1 
 May 25, 2020
